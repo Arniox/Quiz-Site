@@ -1,12 +1,10 @@
 export type GameStatus = "setup" | "active" | "paused" | "finished";
 export type QuizMode = "individual" | "teams";
 export type AnswerType = "single" | "multiple" | "open";
+export type QuestionProgressStatus = "unseen" | "viewed" | "scored" | "no-correct" | "skipped";
 
 export interface QuizSettings {
   shuffleQuestions?: boolean;
-  defaultFirstPlacePoints?: number;
-  defaultSecondPlacePoints?: number;
-  defaultThirdPlacePoints?: number;
 }
 
 export interface QuizQuestion {
@@ -57,6 +55,8 @@ export interface GameSession {
   players: Player[];
   teams: Team[];
   currentQuestionIndex: number;
+  choiceOrder: Record<string, string[]>;
+  viewedQuestionIds: string[];
   questionResults: QuestionResult[];
   adjustments: ManualScoreAdjustment[];
   answerRevealed: boolean;
