@@ -12,10 +12,10 @@ export type GameAction =
   | { type: "REMOVE_TEAM"; teamId: string }
   | { type: "ASSIGN_PLAYER"; playerId: string; teamId: string | null }
   | { type: "AUTO_DISTRIBUTE" }
-  | { type: "START" }
+  | { type: "START"; choiceOrder: Record<string, string[]>; firstQuestionId: string }
   | { type: "PAUSE" }
   | { type: "RESUME" }
-  | { type: "GO_TO"; index: number }
+  | { type: "GO_TO"; index: number; questionId: string }
   | { type: "REVEAL"; value: boolean }
   | { type: "AWARD"; questionId: string; awards: ScoreAward[] }
   | { type: "SKIP"; questionId: string }
@@ -23,11 +23,11 @@ export type GameAction =
   | { type: "UNDO_ADJUSTMENT"; adjustmentId: string }
   | { type: "FINISH" }
   | { type: "RETURN_TO_SETUP" }
-  | { type: "REMATCH" }
+  | { type: "REMATCH"; choiceOrder: Record<string, string[]>; firstQuestionId: string }
   | { type: "RESTORE"; session: GameSession };
 
 export function createSession(selectedQuiz: SelectedQuizReference | null): GameSession {
-  return { version: 1, fingerprint: selectedQuiz?.quizFingerprint ?? "", selectedQuiz, status: "setup", mode: "individual", players: [], teams: [], currentQuestionIndex: 0, questionResults: [], adjustments: [], answerRevealed: false, startedAt: null, elapsedBeforePause: 0, pausedAt: null };
+  return { version: 1, fingerprint: selectedQuiz?.quizFingerprint ?? "", selectedQuiz, status: "setup", mode: "individual", players: [], teams: [], currentQuestionIndex: 0, choiceOrder: {}, viewedQuestionIds: [], questionResults: [], adjustments: [], answerRevealed: false, startedAt: null, elapsedBeforePause: 0, pausedAt: null };
 }
 
 export function gameReducer(state: GameSession, action: GameAction): GameSession {
@@ -62,13 +62,13 @@ export function gameReducer(state: GameSession, action: GameAction): GameSession
       });
       return { ...state, players, teams };
     }
-    case "START": return { ...state, status: "active", startedAt: new Date().toISOString(), pausedAt: null, elapsedBeforePause: 0 };
+    case "START": return { ...state, status: "active", choiceOrder: action.choiceOrder, viewedQuestionIds: [action.firstQuestionId], startedAt: new Date().toISOString(), pausedAt: null, elapsedBeforePause: 0 };
     case "PAUSE": return { ...state, status: "paused", pausedAt: new Date().toISOString() };
     case "RESUME": {
       const pauseMs = state.pausedAt ? Date.now() - new Date(state.pausedAt).getTime() : 0;
       return { ...state, status: "active", elapsedBeforePause: state.elapsedBeforePause + pauseMs, pausedAt: null };
     }
-    case "GO_TO": return { ...state, currentQuestionIndex: action.index, answerRevealed: false };
+    case "GO_TO": return { ...state, currentQuestionIndex: action.index, viewedQuestionIds: [...new Set([...(state.viewedQuestionIds ?? []), action.questionId])], answerRevealed: false };
     case "REVEAL": return { ...state, answerRevealed: action.value };
     case "AWARD": return { ...state, questionResults: replaceQuestionAwards(state.questionResults, action.questionId, action.awards) };
     case "SKIP": {
@@ -79,7 +79,7 @@ export function gameReducer(state: GameSession, action: GameAction): GameSession
     case "UNDO_ADJUSTMENT": return { ...state, adjustments: state.adjustments.filter((a) => a.id !== action.adjustmentId) };
     case "FINISH": return { ...state, status: "finished" };
     case "RETURN_TO_SETUP": return { ...state, status: "setup", currentQuestionIndex: 0, answerRevealed: false };
-    case "REMATCH": return { ...state, status: "active", currentQuestionIndex: 0, questionResults: [], adjustments: [], answerRevealed: false, startedAt: new Date().toISOString(), elapsedBeforePause: 0, pausedAt: null };
+    case "REMATCH": return { ...state, status: "active", currentQuestionIndex: 0, choiceOrder: action.choiceOrder, viewedQuestionIds: [action.firstQuestionId], questionResults: [], adjustments: [], answerRevealed: false, startedAt: new Date().toISOString(), elapsedBeforePause: 0, pausedAt: null };
     case "RESTORE": return action.session;
   }
 }
