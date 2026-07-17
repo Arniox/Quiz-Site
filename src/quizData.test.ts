@@ -24,6 +24,7 @@ describe("repository quiz data", () => {
     for (const category of ["Astronomy", "Science", "History", "Geography"]) expect(quiz.questions.filter((question) => question.category === category)).toHaveLength(10);
     expect(quiz.questions.filter((question) => question.answerType === "multiple")).toHaveLength(8);
     expect(quiz.questions.filter((question) => question.answerType === "open")).toHaveLength(0);
+    expect(quiz.questions.filter((question) => question.choices)).toHaveLength(23);
     expect(new Set(quiz.questions.map((question) => question.id)).size).toBe(40);
     quiz.questions.forEach((question) => {
       expect(question.answers.length).toBeGreaterThan(0);
