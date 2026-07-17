@@ -31,6 +31,7 @@
       "question": "What kind of stellar remnant will the Sun ultimately leave after shedding its outer layers?",
       "answerType": "single",
       "answers": ["White dwarf", "A white dwarf"],
+      "choices": ["White dwarf", "Neutron star", "Black hole", "Red supergiant"],
       "points": 2,
       "category": "Astronomy",
       "notes": "The expelled outer layers form a planetary nebula; the remnant core is a white dwarf."
@@ -49,6 +50,7 @@
       "question": "When astronomers say that a distant galaxy's spectral lines are redshifted, in which direction have their wavelengths moved?",
       "answerType": "single",
       "answers": ["Toward longer wavelengths", "To longer wavelengths", "Longer wavelengths"],
+      "choices": ["Toward longer wavelengths", "Toward shorter wavelengths", "Toward greater brightness", "Toward a faster rotation"],
       "points": 2,
       "category": "Astronomy",
       "notes": "For distant galaxies this is chiefly interpreted in the context of cosmic expansion."
@@ -60,13 +62,14 @@
       "answers": ["Conservation of angular momentum", "It conserves angular momentum", "Kepler's second law", "Kepler’s second law"],
       "points": 3,
       "category": "Astronomy",
-      "notes": "Accept either conservation of angular momentum or Kepler's second law."
+      "notes": "Accept conservation of angular momentum or Kepler's second law. For a friendly ruling, also accept the general idea that the planet gains speed as it falls closer into the Sun's gravitational field."
     },
     {
       "id": "astronomy-07",
       "question": "What type of galaxy is the Milky Way according to its large-scale structure?",
       "answerType": "single",
       "answers": ["Barred spiral galaxy", "A barred spiral", "Barred spiral"],
+      "choices": ["Elliptical galaxy", "Barred spiral galaxy", "Irregular galaxy", "Ring galaxy"],
       "points": 2,
       "category": "Astronomy",
       "notes": "A plain 'spiral galaxy' is close, but the central bar is the distinguishing feature requested."
@@ -76,6 +79,7 @@
       "question": "Name the four large Galilean moons of Jupiter.",
       "answerType": "multiple",
       "answers": ["Io", "Europa", "Ganymede", "Callisto"],
+      "choices": ["Io", "Europa", "Ganymede", "Callisto", "Titan", "Triton"],
       "points": 4,
       "category": "Astronomy",
       "notes": "Award one point for each; answers may be given in any order."
@@ -94,6 +98,7 @@
       "question": "What observational feature of the cosmic microwave background provides evidence that the early universe contained tiny density variations?",
       "answerType": "single",
       "answers": ["Temperature anisotropies", "Tiny temperature fluctuations", "Temperature fluctuations", "Anisotropies"],
+      "choices": ["Temperature anisotropies", "Planetary shadows", "Black-hole jets", "Solar flares"],
       "points": 3,
       "category": "Astronomy",
       "notes": "These minute variations became the seeds of later large-scale structure."
@@ -103,6 +108,7 @@
       "question": "Which law of thermodynamics states that energy cannot be created or destroyed in an isolated system?",
       "answerType": "single",
       "answers": ["The first law of thermodynamics", "First law of thermodynamics", "The first law"],
+      "choices": ["The first law of thermodynamics", "The second law of thermodynamics", "Hooke's law", "Boyle's law"],
       "points": 1,
       "category": "Science",
       "notes": "This is the thermodynamic expression of energy conservation."
@@ -112,6 +118,7 @@
       "question": "Which organelle is the principal site of aerobic cellular respiration in eukaryotic cells?",
       "answerType": "single",
       "answers": ["Mitochondrion", "Mitochondria", "The mitochondria"],
+      "choices": ["Nucleus", "Ribosome", "Mitochondrion", "Golgi apparatus"],
       "points": 1,
       "category": "Science",
       "notes": "Accept singular or plural."
@@ -121,6 +128,7 @@
       "question": "Name the four nitrogenous bases found in DNA.",
       "answerType": "multiple",
       "answers": ["Adenine", "Thymine", "Cytosine", "Guanine"],
+      "choices": ["Adenine", "Thymine", "Cytosine", "Guanine", "Uracil", "Ribose"],
       "points": 4,
       "category": "Science",
       "notes": "Award one point for each; answers may be given in any order. Uracil belongs in RNA, not DNA."
@@ -130,6 +138,7 @@
       "question": "What kind of chemical bond forms when atoms share pairs of electrons?",
       "answerType": "single",
       "answers": ["Covalent bond", "A covalent bond", "Covalent bonding"],
+      "choices": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
       "points": 2,
       "category": "Science",
       "notes": ""
@@ -148,6 +157,7 @@
       "question": "Name the four fundamental interactions of nature.",
       "answerType": "multiple",
       "answers": ["Gravity", "Electromagnetism", "Strong nuclear force", "Weak nuclear force"],
+      "choices": ["Gravity", "Electromagnetism", "Strong nuclear force", "Weak nuclear force", "Friction", "Centrifugal force"],
       "points": 4,
       "category": "Science",
       "notes": "Award one point for each; answers may be given in any order. Accept gravitational, electromagnetic, strong, and weak interaction."
@@ -157,6 +167,7 @@
       "question": "What process moves fragments of DNA through a gel under an electric field, separating them mainly by size?",
       "answerType": "single",
       "answers": ["Gel electrophoresis", "Electrophoresis"],
+      "choices": ["Chromatography", "Gel electrophoresis", "Centrifugation", "Polymerisation"],
       "points": 2,
       "category": "Science",
       "notes": "Smaller DNA fragments generally migrate farther through the gel."
@@ -175,6 +186,7 @@
       "question": "What term describes the immune system's ability to respond more rapidly and strongly after a second encounter with the same pathogen?",
       "answerType": "single",
       "answers": ["Immunological memory", "Immune memory"],
+      "choices": ["Immunological memory", "Genetic drift", "Homeostasis", "Osmosis"],
       "points": 3,
       "category": "Science",
       "notes": "Memory B and T cells underpin this response."
@@ -184,6 +196,7 @@
       "question": "What principle says that no two electrons in an atom can have the same complete set of four quantum numbers?",
       "answerType": "single",
       "answers": ["Pauli exclusion principle", "The Pauli exclusion principle"],
+      "choices": ["Pauli exclusion principle", "Heisenberg uncertainty principle", "Archimedes' principle", "Le Châtelier's principle"],
       "points": 3,
       "category": "Science",
       "notes": "Named for Wolfgang Pauli."
@@ -211,6 +224,7 @@
       "question": "Which peace settlement formally ended the Thirty Years' War in 1648?",
       "answerType": "single",
       "answers": ["The Peace of Westphalia", "Peace of Westphalia", "Westphalia"],
+      "choices": ["The Peace of Westphalia", "The Treaty of Versailles", "The Congress of Vienna", "The Peace of Augsburg"],
       "points": 2,
       "category": "History",
       "notes": "The broader settlement consisted principally of the treaties of Münster and Osnabrück."
@@ -229,6 +243,7 @@
       "question": "Which Chinese dynasty sponsored Zheng He's major maritime expeditions across the Indian Ocean?",
       "answerType": "single",
       "answers": ["The Ming dynasty", "Ming dynasty", "Ming"],
+      "choices": ["Tang dynasty", "Song dynasty", "Ming dynasty", "Qing dynasty"],
       "points": 2,
       "category": "History",
       "notes": "The voyages took place in the early 15th century."
@@ -238,6 +253,7 @@
       "question": "Name the three European powers that formed the Triple Entente before the First World War.",
       "answerType": "multiple",
       "answers": ["France", "The United Kingdom", "Russia"],
+      "choices": ["France", "The United Kingdom", "Russia", "Germany", "Italy"],
       "points": 3,
       "category": "History",
       "notes": "Award one point for each; answers may be given in any order. Accept Britain or the British Empire for the United Kingdom, and the Russian Empire for Russia."
@@ -256,6 +272,7 @@
       "question": "Name the four empires that collapsed during or in the immediate aftermath of the First World War.",
       "answerType": "multiple",
       "answers": ["German Empire", "Austro-Hungarian Empire", "Ottoman Empire", "Russian Empire"],
+      "choices": ["German Empire", "Austro-Hungarian Empire", "Ottoman Empire", "Russian Empire", "British Empire", "Japanese Empire"],
       "points": 4,
       "category": "History",
       "notes": "Award one point for each; answers may be given in any order. Accept German, Habsburg or Austria-Hungary, Ottoman, and Russian or Tsarist empire."
@@ -265,6 +282,7 @@
       "question": "From which broad Pacific region did the Polynesian ancestors of Māori migrate to Aotearoa New Zealand?",
       "answerType": "single",
       "answers": ["East Polynesia", "Eastern Polynesia"],
+      "choices": ["East Polynesia", "Melanesia", "Micronesia", "Southeast Asia"],
       "points": 3,
       "category": "History",
       "notes": "Current evidence places initial settlement from East Polynesia in the late 13th century."
@@ -274,6 +292,7 @@
       "question": "What was the name of the Ottoman levy that recruited boys from Christian communities for imperial service, including service with the Janissaries?",
       "answerType": "single",
       "answers": ["Devshirme", "Devşirme", "The devshirme system", "The devşirme system"],
+      "choices": ["Devshirme", "Millet", "Satrapy", "Hanseatic League"],
       "points": 3,
       "category": "History",
       "notes": "Pronounced approximately dev-SHEER-meh. The practice varied over time and place."
@@ -310,6 +329,7 @@
       "question": "What climate pattern produces dry conditions on the leeward side of a mountain range after air loses moisture while rising on the windward side?",
       "answerType": "single",
       "answers": ["Rain shadow", "A rain shadow", "Rain-shadow effect", "Orographic rain shadow"],
+      "choices": ["Rain shadow", "Monsoon reversal", "Urban heat island", "Ocean upwelling"],
       "points": 2,
       "category": "Geography",
       "notes": "Accept rain shadow or rain-shadow effect."
@@ -328,6 +348,7 @@
       "question": "Which sea has no land boundaries and is instead defined by circulating currents in the North Atlantic?",
       "answerType": "single",
       "answers": ["The Sargasso Sea", "Sargasso Sea"],
+      "choices": ["The Sargasso Sea", "The Coral Sea", "The Arabian Sea", "The Tasman Sea"],
       "points": 3,
       "category": "Geography",
       "notes": "Its boundaries are formed by the North Atlantic subtropical gyre."
@@ -346,6 +367,7 @@
       "question": "Name the three widely recognised vertices of the Polynesian Triangle.",
       "answerType": "multiple",
       "answers": ["Hawaiʻi", "Aotearoa New Zealand", "Rapa Nui"],
+      "choices": ["Hawaiʻi", "Aotearoa New Zealand", "Rapa Nui", "Tahiti", "Samoa"],
       "points": 3,
       "category": "Geography",
       "notes": "Award one point for each; answers may be given in any order. Accept Hawaii, New Zealand or Aotearoa, and Easter Island for Rapa Nui."
@@ -364,6 +386,7 @@
       "question": "What is the geographic term for a drainage basin whose rivers do not reach the ocean, instead ending in inland lakes, wetlands, or salt flats?",
       "answerType": "single",
       "answers": ["Endorheic basin", "An endorheic basin", "Closed drainage basin", "Interior drainage basin"],
+      "choices": ["Endorheic basin", "Estuary", "Alluvial fan", "Watershed divide"],
       "points": 3,
       "category": "Geography",
       "notes": "Pronounced roughly en-doh-REE-ik. Accept closed or interior drainage basin."
