@@ -90,6 +90,7 @@ Every quiz file uses this complete format:
       "question": "What is the capital of New Zealand?",
       "answerType": "single",
       "answers": ["Wellington"],
+      "choices": ["Auckland", "Christchurch", "Wellington", "Dunedin"],
       "points": 1,
       "category": "Geography",
       "notes": "Optional host-only note."
@@ -115,7 +116,7 @@ Every quiz file uses this complete format:
 }
 ```
 
-`answerType` must be `single`, `multiple`, or `open`. A single-answer question requires at least one answer. Open questions may use an empty answer list. `points` must be zero or greater. Category and notes are optional. Every question needs a stable, unique `id`; changing IDs during a saved game makes that saved session incompatible.
+`answerType` must be `single`, `multiple`, or `open`. A single-answer question requires at least one answer. Open questions may use an empty answer list. Add an optional `choices` array to display two or more possible answers before the host reveals the result. At least one choice must exactly match an accepted answer; multiple-answer questions may contain several correct choices. `points` must be zero or greater. Category and notes are optional. Every question needs a stable, unique `id`; changing IDs during a saved game makes that saved session incompatible.
 
 The repository includes:
 
