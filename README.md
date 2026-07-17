@@ -79,10 +79,7 @@ Every quiz file uses this complete format:
   "title": "My Quiz Name",
   "description": "A general knowledge quiz.",
   "settings": {
-    "shuffleQuestions": false,
-    "defaultFirstPlacePoints": 3,
-    "defaultSecondPlacePoints": 2,
-    "defaultThirdPlacePoints": 1
+    "shuffleQuestions": false
   },
   "questions": [
     {
@@ -127,11 +124,13 @@ If one listed quiz is malformed, the selection screen reports that file as unava
 
 ## Hosting a game
 
-Add players, choose solo or team mode, and start. In team mode, create teams and assign every player. During play, tick any number of participants, adjust their point values, then choose **Apply awards**. Applying again replaces that question's previous awards, so scores are never accidentally doubled.
+Add players, choose solo or team mode, and start. In team mode, create teams and assign every player. During play, tick any number of participants and adjust their point values. **Apply selected points** saves immediately; **Next** also saves the current selections before moving on, with every unselected participant receiving zero. Use **No one answered correctly** to record a completed zero-score round explicitly, or **Skip** when the question was not played.
+
+Every multiple-choice answer list is shuffled once when a game starts. That order is saved with the session, stays stable while revisiting questions or refreshing the browser, and is shuffled again for a rematch.
 
 Quick `+` and `−` controls create manual score adjustments. Select a participant's name to inspect their score history, undo manual changes, or set an exact total. Exact totals are stored as the difference from the calculated score, preserving question history.
 
-Keyboard shortcuts work when no input is focused: Space reveals or hides the answer, arrow keys navigate, P pauses, and F toggles fullscreen.
+Keyboard shortcuts work when no input is focused: Space reveals or hides the answer, P pauses, and F toggles fullscreen. Question navigation uses the on-screen controls so moving forward always follows the scoring workflow.
 
 ## Saving and resuming
 
