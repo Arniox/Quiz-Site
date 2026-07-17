@@ -1,0 +1,398 @@
+{
+  "title": "Friday, 07/08/2026 Quiz: The August Mix",
+  "description": "A relaxed Friday quiz covering movies and television, pop culture, geography, and light current world politics. Political facts were checked on 17 July 2026 and should be rechecked before hosting.",
+  "settings": {
+    "shuffleQuestions": false
+  },
+  "questions": [
+    {
+      "id": "movies-tv-01",
+      "question": "In Friends, what is the name of the coffee shop where the group regularly meets?",
+      "answerType": "single",
+      "answers": ["Central Perk"],
+      "choices": ["Central Perk", "Monk's Café", "Luke's Diner", "The Peach Pit"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Central Perk is the café with the orange sofa."
+    },
+    {
+      "id": "movies-tv-02",
+      "question": "Which New Zealand filmmaker directed The Lord of the Rings film trilogy?",
+      "answerType": "single",
+      "answers": ["Peter Jackson", "Sir Peter Jackson"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Accept Peter Jackson with or without his title."
+    },
+    {
+      "id": "movies-tv-03",
+      "question": "Who plays Wednesday Addams in the Netflix series Wednesday?",
+      "answerType": "single",
+      "answers": ["Jenna Ortega"],
+      "choices": ["Jenna Ortega", "Anya Taylor-Joy", "Millie Bobby Brown", "Aubrey Plaza"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Jenna Ortega first played the role in the series released in 2022."
+    },
+    {
+      "id": "movies-tv-04",
+      "question": "What is the surname of the wealthy media family at the centre of Succession?",
+      "answerType": "single",
+      "answers": ["Roy", "The Roys", "Roy family"],
+      "choices": ["Roy", "Dutton", "Carrington", "Pierce"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Accept Roy or the Roy family."
+    },
+    {
+      "id": "movies-tv-05",
+      "question": "In Breaking Bad, what alias does Walter White use in the drug trade?",
+      "answerType": "single",
+      "answers": ["Heisenberg"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "The alias is Heisenberg, borrowed from physicist Werner Heisenberg."
+    },
+    {
+      "id": "movies-tv-06",
+      "question": "Who directed the 2023 film Barbie?",
+      "answerType": "single",
+      "answers": ["Greta Gerwig"],
+      "choices": ["Greta Gerwig", "Sofia Coppola", "Patty Jenkins", "Emerald Fennell"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Greta Gerwig directed and co-wrote the film."
+    },
+    {
+      "id": "movies-tv-07",
+      "question": "What is the name of the town where The Simpsons live?",
+      "answerType": "single",
+      "answers": ["Springfield"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "The state is deliberately left ambiguous, but the town is Springfield."
+    },
+    {
+      "id": "movies-tv-08",
+      "question": "In Stranger Things, what is the dark alternate dimension called?",
+      "answerType": "single",
+      "answers": ["The Upside Down", "Upside Down"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Accept The Upside Down or simply Upside Down."
+    },
+    {
+      "id": "movies-tv-09",
+      "question": "In the US version of The Office, which company employs the main characters?",
+      "answerType": "single",
+      "answers": ["Dunder Mifflin", "Dunder Mifflin Paper Company"],
+      "choices": ["Dunder Mifflin", "Wernham Hogg", "Vandelay Industries", "Prestige Worldwide"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Dunder Mifflin is a fictional paper company."
+    },
+    {
+      "id": "movies-tv-10",
+      "question": "In Pixar's Inside Out, which emotion is represented by the blue character?",
+      "answerType": "single",
+      "answers": ["Sadness"],
+      "choices": ["Sadness", "Joy", "Fear", "Envy"],
+      "points": 1,
+      "category": "Movies & TV",
+      "notes": "Sadness is blue and is voiced by Phyllis Smith in the English-language film."
+    },
+    {
+      "id": "pop-culture-01",
+      "question": "What nickname is commonly used for fans of Taylor Swift?",
+      "answerType": "single",
+      "answers": ["Swifties", "Swiftie"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "Accept Swifties or Swiftie."
+    },
+    {
+      "id": "pop-culture-02",
+      "question": "What is the title of Beyoncé's country-influenced 2024 album?",
+      "answerType": "single",
+      "answers": ["Cowboy Carter"],
+      "choices": ["Cowboy Carter", "Renaissance", "Lemonade", "Texas Hold 'Em"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "Texas Hold 'Em is a single from the album; the album is Cowboy Carter."
+    },
+    {
+      "id": "pop-culture-03",
+      "question": "Which South Korean performer had the worldwide hit Gangnam Style?",
+      "answerType": "single",
+      "answers": ["PSY", "Psy"],
+      "choices": ["PSY", "Jungkook", "G-Dragon", "Rain"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "PSY released Gangnam Style in 2012."
+    },
+    {
+      "id": "pop-culture-04",
+      "question": "Which city hosted the 2024 Summer Olympic Games?",
+      "answerType": "single",
+      "answers": ["Paris", "Paris, France"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "Paris hosted the Games, with some events held elsewhere in France and French Polynesia."
+    },
+    {
+      "id": "pop-culture-05",
+      "question": "Name the four members of The Beatles.",
+      "answerType": "multiple",
+      "answers": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+      "choices": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr", "Mick Jagger", "Eric Clapton"],
+      "points": 4,
+      "category": "Pop Culture",
+      "notes": "Award one point each for John Lennon, Paul McCartney, George Harrison, and Ringo Starr."
+    },
+    {
+      "id": "pop-culture-06",
+      "question": "Which singer released the album Brat, inspiring the bright-green 'brat summer' trend?",
+      "answerType": "single",
+      "answers": ["Charli XCX", "Charli xcx", "Charli Xcx"],
+      "choices": ["Charli XCX", "Chappell Roan", "Dua Lipa", "Billie Eilish"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "Brat was released by Charli XCX in 2024."
+    },
+    {
+      "id": "pop-culture-07",
+      "question": "Which rapper headlined the Super Bowl halftime show in February 2025?",
+      "answerType": "single",
+      "answers": ["Kendrick Lamar"],
+      "choices": ["Kendrick Lamar", "Drake", "Travis Scott", "Jay-Z"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "Kendrick Lamar headlined Super Bowl LIX's halftime show."
+    },
+    {
+      "id": "pop-culture-08",
+      "question": "Which performer is widely nicknamed the 'Queen of Pop'?",
+      "answerType": "single",
+      "answers": ["Madonna"],
+      "choices": ["Madonna", "Cher", "Celine Dion", "Dolly Parton"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "Madonna is commonly known as the Queen of Pop."
+    },
+    {
+      "id": "pop-culture-09",
+      "question": "Which New Zealand singer became an international star with the song Royals?",
+      "answerType": "single",
+      "answers": ["Lorde", "Ella Yelich-O'Connor", "Ella Yelich O'Connor"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "Lorde is the stage name of Ella Yelich-O'Connor."
+    },
+    {
+      "id": "pop-culture-10",
+      "question": "What blended nickname was given to the shared 2023 cinema craze around Barbie and Oppenheimer?",
+      "answerType": "single",
+      "answers": ["Barbenheimer"],
+      "choices": ["Barbenheimer", "Barbieheimer", "Oppiecore", "The Double Feature"],
+      "points": 1,
+      "category": "Pop Culture",
+      "notes": "The popular portmanteau was Barbenheimer."
+    },
+    {
+      "id": "geography-01",
+      "question": "What is the capital city of Canada?",
+      "answerType": "single",
+      "answers": ["Ottawa"],
+      "choices": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "Ottawa is the capital; Toronto is Canada's largest city."
+    },
+    {
+      "id": "geography-02",
+      "question": "What is the largest ocean on Earth?",
+      "answerType": "single",
+      "answers": ["Pacific Ocean", "The Pacific", "Pacific"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "The Pacific Ocean is larger than all Earth's land area combined."
+    },
+    {
+      "id": "geography-03",
+      "question": "Which strait separates New Zealand's North Island and South Island?",
+      "answerType": "single",
+      "answers": ["Cook Strait"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "Cook Strait lies between Wellington and the Marlborough Sounds."
+    },
+    {
+      "id": "geography-04",
+      "question": "Which continent is the only one with land in all four hemispheres?",
+      "answerType": "single",
+      "answers": ["Africa"],
+      "choices": ["Africa", "Asia", "South America", "Europe"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "Both the Equator and the Prime Meridian cross Africa."
+    },
+    {
+      "id": "geography-05",
+      "question": "The island of New Guinea is divided between which two countries?",
+      "answerType": "multiple",
+      "answers": ["Papua New Guinea", "Indonesia"],
+      "choices": ["Papua New Guinea", "Indonesia", "Malaysia", "Solomon Islands"],
+      "points": 2,
+      "category": "Geography",
+      "notes": "Award one point each for Papua New Guinea and Indonesia."
+    },
+    {
+      "id": "geography-06",
+      "question": "Lake Titicaca lies on the border of which two countries?",
+      "answerType": "multiple",
+      "answers": ["Peru", "Bolivia"],
+      "choices": ["Peru", "Bolivia", "Chile", "Ecuador"],
+      "points": 2,
+      "category": "Geography",
+      "notes": "Award one point each for Peru and Bolivia."
+    },
+    {
+      "id": "geography-07",
+      "question": "Which New Zealand city is commonly known as the Garden City?",
+      "answerType": "single",
+      "answers": ["Christchurch", "Christchurch, New Zealand"],
+      "choices": ["Christchurch", "Hamilton", "Dunedin", "Nelson"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "Christchurch is widely known as New Zealand's Garden City."
+    },
+    {
+      "id": "geography-08",
+      "question": "Which famous river flows through Egypt and reaches the Mediterranean Sea?",
+      "answerType": "single",
+      "answers": ["Nile", "The Nile", "Nile River", "The Nile River"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "Accept Nile or Nile River."
+    },
+    {
+      "id": "geography-09",
+      "question": "Which European country is often described as being shaped like a boot?",
+      "answerType": "single",
+      "answers": ["Italy"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "The Italian peninsula creates the familiar boot shape."
+    },
+    {
+      "id": "geography-10",
+      "question": "What is the capital city of Australia?",
+      "answerType": "single",
+      "answers": ["Canberra"],
+      "choices": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "Canberra, not Sydney or Melbourne, is Australia's capital."
+    },
+    {
+      "id": "world-politics-01",
+      "question": "Which politician returned to the White House in January 2025 after previously serving as US president from 2017 to 2021?",
+      "answerType": "single",
+      "answers": ["Donald Trump", "Donald J. Trump", "Trump"],
+      "choices": ["Donald Trump", "Joe Biden", "Barack Obama", "JD Vance"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "Donald Trump is both the 45th and 47th US president. Current as checked on 17 July 2026."
+    },
+    {
+      "id": "world-politics-02",
+      "question": "Which party won a large majority in the United Kingdom's 2024 general election?",
+      "answerType": "single",
+      "answers": ["Labour", "Labour Party", "The Labour Party"],
+      "choices": ["Labour Party", "Conservative Party", "Liberal Democrats", "Reform UK"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "Labour won 411 seats and a majority in the House of Commons."
+    },
+    {
+      "id": "world-politics-03",
+      "question": "Who became prime minister of Canada in March 2025, succeeding Justin Trudeau?",
+      "answerType": "single",
+      "answers": ["Mark Carney"],
+      "choices": ["Mark Carney", "Pierre Poilievre", "Jagmeet Singh", "Doug Ford"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "Mark Carney became Canada's 24th prime minister. Current as checked on 17 July 2026."
+    },
+    {
+      "id": "world-politics-04",
+      "question": "Claudia Sheinbaum became the first woman elected president of which country?",
+      "answerType": "single",
+      "answers": ["Mexico"],
+      "choices": ["Mexico", "Argentina", "Chile", "Spain"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "Claudia Sheinbaum took office as president of Mexico in October 2024."
+    },
+    {
+      "id": "world-politics-05",
+      "question": "Giorgia Meloni is the prime minister of which European country?",
+      "answerType": "single",
+      "answers": ["Italy"],
+      "choices": ["Italy", "Greece", "Spain", "Hungary"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "Giorgia Meloni has led Italy's government since October 2022. Current as checked on 17 July 2026."
+    },
+    {
+      "id": "world-politics-06",
+      "question": "Alongside the National Party, which two parties make up New Zealand's current coalition government?",
+      "answerType": "multiple",
+      "answers": ["ACT New Zealand", "New Zealand First"],
+      "choices": ["ACT New Zealand", "New Zealand First", "Green Party", "Labour Party"],
+      "points": 2,
+      "category": "World Politics",
+      "notes": "Award one point each for ACT New Zealand and New Zealand First. Current as checked on 17 July 2026."
+    },
+    {
+      "id": "world-politics-07",
+      "question": "What does NATO's Article 5 broadly mean?",
+      "answerType": "single",
+      "answers": ["An attack on one member is treated as an attack on all", "An armed attack on one member is considered an attack on all members"],
+      "choices": ["An attack on one member is treated as an attack on all", "Every member must spend five percent of GDP on defence", "No member may leave NATO", "All military decisions require five votes"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "It is NATO's collective-defence commitment. Assistance does not automatically have to mean the use of armed force."
+    },
+    {
+      "id": "world-politics-08",
+      "question": "Which country became NATO's newest member in 2024?",
+      "answerType": "single",
+      "answers": ["Sweden"],
+      "choices": ["Sweden", "Finland", "Ukraine", "Austria"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "Sweden became NATO's 32nd member in March 2024; Finland joined in 2023."
+    },
+    {
+      "id": "world-politics-09",
+      "question": "Which United Nations body has five permanent members with veto power?",
+      "answerType": "single",
+      "answers": ["UN Security Council", "United Nations Security Council", "Security Council"],
+      "choices": ["UN Security Council", "UN General Assembly", "International Court of Justice", "UN Human Rights Council"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "The five permanent Security Council members are China, France, Russia, the United Kingdom, and the United States."
+    },
+    {
+      "id": "world-politics-10",
+      "question": "Which political party does New Zealand prime minister Christopher Luxon lead?",
+      "answerType": "single",
+      "answers": ["National", "National Party", "New Zealand National Party"],
+      "choices": ["National Party", "ACT New Zealand", "New Zealand First", "Labour Party"],
+      "points": 1,
+      "category": "World Politics",
+      "notes": "Christopher Luxon is leader of the New Zealand National Party. Current as checked on 17 July 2026."
+    }
+  ]
+}

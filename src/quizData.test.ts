@@ -34,4 +34,19 @@ describe("repository quiz data", () => {
       expect(typeof question.notes).toBe("string");
     });
   });
+
+  it("contains a friendly August 2026 quiz", () => {
+    const quiz = validateQuiz(JSON.parse(readFileSync(resolve(quizDirectory, "august-2026-friday-quiz.json"), "utf8")));
+    expect(quiz.questions).toHaveLength(40);
+    for (const category of ["Movies & TV", "Pop Culture", "Geography", "World Politics"]) expect(quiz.questions.filter((question) => question.category === category)).toHaveLength(10);
+    expect(quiz.questions.filter((question) => question.choices)).toHaveLength(29);
+    expect(new Set(quiz.questions.map((question) => question.id)).size).toBe(40);
+    quiz.questions.forEach((question) => {
+      expect(question.answers.length).toBeGreaterThan(0);
+      expect(Number.isInteger(question.points)).toBe(true);
+      expect(question.points).toBeGreaterThan(0);
+      expect(question.category).toBeTruthy();
+      expect(typeof question.notes).toBe("string");
+    });
+  });
 });
