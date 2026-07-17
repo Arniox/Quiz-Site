@@ -1,398 +1,692 @@
 {
   "title": "Friday, 07/08/2026 Quiz: The August Mix",
-  "description": "A relaxed Friday quiz covering movies and television, pop culture, geography, and light current world politics. Political facts were checked on 17 July 2026 and should be rechecked before hosting.",
+  "description": "A Chase-style Friday quiz covering movies and television, pop culture, geography, and light current world politics. The rounds aim for broad knowledge with a few satisfying stretch questions. Political facts were checked on 17 July 2026 and should be rechecked before hosting.",
   "settings": {
     "shuffleQuestions": false
   },
   "questions": [
     {
       "id": "movies-tv-01",
-      "question": "In Friends, what is the name of the coffee shop where the group regularly meets?",
+      "question": "Which film won Best Picture at the 2024 Academy Awards?",
       "answerType": "single",
-      "answers": ["Central Perk"],
-      "choices": ["Central Perk", "Monk's Café", "Luke's Diner", "The Peach Pit"],
+      "answers": [
+        "Oppenheimer"
+      ],
+      "choices": [
+        "Oppenheimer",
+        "Poor Things",
+        "Killers of the Flower Moon",
+        "Anatomy of a Fall"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Central Perk is the café with the orange sofa."
+      "notes": "Oppenheimer won seven Oscars, including Best Picture and Best Director."
     },
     {
       "id": "movies-tv-02",
-      "question": "Which New Zealand filmmaker directed The Lord of the Rings film trilogy?",
+      "question": "In the television series Severance, what is the name of the mysterious company where Mark Scout works?",
       "answerType": "single",
-      "answers": ["Peter Jackson", "Sir Peter Jackson"],
+      "answers": [
+        "Lumon Industries",
+        "Lumon"
+      ],
+      "choices": [
+        "Lumon Industries",
+        "Massive Dynamic",
+        "Waystar Royco",
+        "E Corp"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Accept Peter Jackson with or without his title."
+      "notes": "Accept Lumon or Lumon Industries."
     },
     {
       "id": "movies-tv-03",
-      "question": "Who plays Wednesday Addams in the Netflix series Wednesday?",
+      "question": "Which director made Jaws, Jurassic Park and Schindler's List?",
       "answerType": "single",
-      "answers": ["Jenna Ortega"],
-      "choices": ["Jenna Ortega", "Anya Taylor-Joy", "Millie Bobby Brown", "Aubrey Plaza"],
+      "answers": [
+        "Steven Spielberg",
+        "Spielberg"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Jenna Ortega first played the role in the series released in 2022."
+      "notes": "All three films were directed by Steven Spielberg."
     },
     {
       "id": "movies-tv-04",
-      "question": "What is the surname of the wealthy media family at the centre of Succession?",
+      "question": "The first season of The White Lotus is set at a resort in which island group?",
       "answerType": "single",
-      "answers": ["Roy", "The Roys", "Roy family"],
-      "choices": ["Roy", "Dutton", "Carrington", "Pierce"],
+      "answers": [
+        "Hawaii",
+        "Hawaiian Islands",
+        "The Hawaiian Islands"
+      ],
+      "choices": [
+        "Hawaii",
+        "The Bahamas",
+        "The Maldives",
+        "The Canary Islands"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Accept Roy or the Roy family."
+      "notes": "The first season is set in Hawaii; the second moves to Sicily."
     },
     {
       "id": "movies-tv-05",
-      "question": "In Breaking Bad, what alias does Walter White use in the drug trade?",
+      "question": "Who played FBI trainee Clarice Starling in The Silence of the Lambs?",
       "answerType": "single",
-      "answers": ["Heisenberg"],
+      "answers": [
+        "Jodie Foster"
+      ],
+      "choices": [
+        "Jodie Foster",
+        "Julianne Moore",
+        "Sigourney Weaver",
+        "Michelle Pfeiffer"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "The alias is Heisenberg, borrowed from physicist Werner Heisenberg."
+      "notes": "Jodie Foster won the Academy Award for Best Actress for the role. Julianne Moore played Clarice in the sequel Hannibal."
     },
     {
       "id": "movies-tv-06",
-      "question": "Who directed the 2023 film Barbie?",
+      "question": "Which television series is set mainly on the fictional continents of Westeros and Essos?",
       "answerType": "single",
-      "answers": ["Greta Gerwig"],
-      "choices": ["Greta Gerwig", "Sofia Coppola", "Patty Jenkins", "Emerald Fennell"],
+      "answers": [
+        "Game of Thrones"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Greta Gerwig directed and co-wrote the film."
+      "notes": "Game of Thrones is the intended answer. Do not require the book-series title A Song of Ice and Fire."
     },
     {
       "id": "movies-tv-07",
-      "question": "What is the name of the town where The Simpsons live?",
+      "question": "Which film became the first primarily non-English-language movie to win the Academy Award for Best Picture?",
       "answerType": "single",
-      "answers": ["Springfield"],
+      "answers": [
+        "Parasite"
+      ],
+      "choices": [
+        "Parasite",
+        "Roma",
+        "Crouching Tiger, Hidden Dragon",
+        "Amélie"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "The state is deliberately left ambiguous, but the town is Springfield."
+      "notes": "South Korea's Parasite made history at the 2020 Academy Awards."
     },
     {
       "id": "movies-tv-08",
-      "question": "In Stranger Things, what is the dark alternate dimension called?",
+      "question": "What is the name of the media conglomerate controlled by the Roy family in Succession?",
       "answerType": "single",
-      "answers": ["The Upside Down", "Upside Down"],
+      "answers": [
+        "Waystar Royco",
+        "Waystar-Royco",
+        "Waystar"
+      ],
+      "choices": [
+        "Waystar Royco",
+        "Pierce Global Media",
+        "Axe Capital",
+        "Sterling Cooper"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Accept The Upside Down or simply Upside Down."
+      "notes": "Accept Waystar Royco or simply Waystar. Pierce Global Media is its rival."
     },
     {
       "id": "movies-tv-09",
-      "question": "In the US version of The Office, which company employs the main characters?",
+      "question": "Which New Zealand actor plays Homelander in The Boys?",
       "answerType": "single",
-      "answers": ["Dunder Mifflin", "Dunder Mifflin Paper Company"],
-      "choices": ["Dunder Mifflin", "Wernham Hogg", "Vandelay Industries", "Prestige Worldwide"],
+      "answers": [
+        "Antony Starr",
+        "Anthony Starr"
+      ],
+      "choices": [
+        "Antony Starr",
+        "Karl Urban",
+        "Jemaine Clement",
+        "Sam Neill"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Dunder Mifflin is a fictional paper company."
+      "notes": "Antony Starr plays Homelander. Accept the common misspelling Anthony Starr. Karl Urban plays Billy Butcher."
     },
     {
       "id": "movies-tv-10",
-      "question": "In Pixar's Inside Out, which emotion is represented by the blue character?",
+      "question": "The line 'I see dead people' comes from which film?",
       "answerType": "single",
-      "answers": ["Sadness"],
-      "choices": ["Sadness", "Joy", "Fear", "Envy"],
+      "answers": [
+        "The Sixth Sense",
+        "Sixth Sense"
+      ],
       "points": 1,
       "category": "Movies & TV",
-      "notes": "Sadness is blue and is voiced by Phyllis Smith in the English-language film."
+      "notes": "The line is spoken by Cole Sear in The Sixth Sense."
     },
     {
       "id": "pop-culture-01",
-      "question": "What nickname is commonly used for fans of Taylor Swift?",
+      "question": "Stefani Germanotta is the real name of which pop star?",
       "answerType": "single",
-      "answers": ["Swifties", "Swiftie"],
+      "answers": [
+        "Lady Gaga",
+        "Gaga"
+      ],
+      "choices": [
+        "Lady Gaga",
+        "Lana Del Rey",
+        "Katy Perry",
+        "P!nk"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "Accept Swifties or Swiftie."
+      "notes": "Lady Gaga was born Stefani Joanne Angelina Germanotta."
     },
     {
       "id": "pop-culture-02",
-      "question": "What is the title of Beyoncé's country-influenced 2024 album?",
+      "question": "Which artist became the first person to win the Grammy for Album of the Year four times?",
       "answerType": "single",
-      "answers": ["Cowboy Carter"],
-      "choices": ["Cowboy Carter", "Renaissance", "Lemonade", "Texas Hold 'Em"],
+      "answers": [
+        "Taylor Swift"
+      ],
+      "choices": [
+        "Taylor Swift",
+        "Beyoncé",
+        "Adele",
+        "Stevie Wonder"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "Texas Hold 'Em is a single from the album; the album is Cowboy Carter."
+      "notes": "Taylor Swift reached four wins with Midnights in 2024."
     },
     {
       "id": "pop-culture-03",
-      "question": "Which South Korean performer had the worldwide hit Gangnam Style?",
+      "question": "Which band released the album Rumours?",
       "answerType": "single",
-      "answers": ["PSY", "Psy"],
-      "choices": ["PSY", "Jungkook", "G-Dragon", "Rain"],
+      "answers": [
+        "Fleetwood Mac"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "PSY released Gangnam Style in 2012."
+      "notes": "Fleetwood Mac released Rumours in 1977."
     },
     {
       "id": "pop-culture-04",
-      "question": "Which city hosted the 2024 Summer Olympic Games?",
+      "question": "Sasha Fierce is the stage alter ego of which performer?",
       "answerType": "single",
-      "answers": ["Paris", "Paris, France"],
+      "answers": [
+        "Beyoncé",
+        "Beyonce",
+        "Beyoncé Knowles",
+        "Beyonce Knowles"
+      ],
+      "choices": [
+        "Beyoncé",
+        "Rihanna",
+        "Nicki Minaj",
+        "Christina Aguilera"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "Paris hosted the Games, with some events held elsewhere in France and French Polynesia."
+      "notes": "The persona appears in the title of Beyoncé's 2008 album I Am... Sasha Fierce."
     },
     {
       "id": "pop-culture-05",
-      "question": "Name the four members of The Beatles.",
-      "answerType": "multiple",
-      "answers": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
-      "choices": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr", "Mick Jagger", "Eric Clapton"],
-      "points": 4,
+      "question": "What was the first music video played when MTV launched in 1981?",
+      "answerType": "single",
+      "answers": [
+        "Video Killed the Radio Star",
+        "Video Killed The Radio Star"
+      ],
+      "choices": [
+        "Video Killed the Radio Star",
+        "Money for Nothing",
+        "Take on Me",
+        "You Better Run"
+      ],
+      "points": 1,
       "category": "Pop Culture",
-      "notes": "Award one point each for John Lennon, Paul McCartney, George Harrison, and Ringo Starr."
+      "notes": "Video Killed the Radio Star by the Buggles was MTV's first video."
     },
     {
       "id": "pop-culture-06",
-      "question": "Which singer released the album Brat, inspiring the bright-green 'brat summer' trend?",
+      "question": "Abel Tesfaye performs under which stage name?",
       "answerType": "single",
-      "answers": ["Charli XCX", "Charli xcx", "Charli Xcx"],
-      "choices": ["Charli XCX", "Chappell Roan", "Dua Lipa", "Billie Eilish"],
+      "answers": [
+        "The Weeknd",
+        "Weeknd"
+      ],
+      "choices": [
+        "The Weeknd",
+        "Frank Ocean",
+        "Childish Gambino",
+        "Post Malone"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "Brat was released by Charli XCX in 2024."
+      "notes": "Accept The Weeknd or Weeknd."
     },
     {
       "id": "pop-culture-07",
-      "question": "Which rapper headlined the Super Bowl halftime show in February 2025?",
+      "question": "Which singer released the 2001 debut album Songs in A Minor?",
       "answerType": "single",
-      "answers": ["Kendrick Lamar"],
-      "choices": ["Kendrick Lamar", "Drake", "Travis Scott", "Jay-Z"],
+      "answers": [
+        "Alicia Keys"
+      ],
+      "choices": [
+        "Alicia Keys",
+        "Norah Jones",
+        "Mary J. Blige",
+        "Nelly Furtado"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "Kendrick Lamar headlined Super Bowl LIX's halftime show."
+      "notes": "Songs in A Minor was Alicia Keys' debut studio album."
     },
     {
       "id": "pop-culture-08",
-      "question": "Which performer is widely nicknamed the 'Queen of Pop'?",
+      "question": "Melanie Chisholm was better known by which Spice Girls nickname?",
       "answerType": "single",
-      "answers": ["Madonna"],
-      "choices": ["Madonna", "Cher", "Celine Dion", "Dolly Parton"],
+      "answers": [
+        "Sporty Spice",
+        "Sporty"
+      ],
+      "choices": [
+        "Sporty Spice",
+        "Scary Spice",
+        "Baby Spice",
+        "Ginger Spice"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "Madonna is commonly known as the Queen of Pop."
+      "notes": "Melanie Chisholm, also known as Mel C, was Sporty Spice."
     },
     {
       "id": "pop-culture-09",
-      "question": "Which New Zealand singer became an international star with the song Royals?",
+      "question": "Which singer founded the Fenty Beauty cosmetics brand?",
       "answerType": "single",
-      "answers": ["Lorde", "Ella Yelich-O'Connor", "Ella Yelich O'Connor"],
+      "answers": [
+        "Rihanna",
+        "Robyn Rihanna Fenty"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "Lorde is the stage name of Ella Yelich-O'Connor."
+      "notes": "Fenty is Rihanna's surname; her full name is Robyn Rihanna Fenty."
     },
     {
       "id": "pop-culture-10",
-      "question": "What blended nickname was given to the shared 2023 cinema craze around Barbie and Oppenheimer?",
+      "question": "Nemo won the 2024 Eurovision Song Contest while representing which country?",
       "answerType": "single",
-      "answers": ["Barbenheimer"],
-      "choices": ["Barbenheimer", "Barbieheimer", "Oppiecore", "The Double Feature"],
+      "answers": [
+        "Switzerland"
+      ],
+      "choices": [
+        "Switzerland",
+        "Sweden",
+        "Austria",
+        "The Netherlands"
+      ],
       "points": 1,
       "category": "Pop Culture",
-      "notes": "The popular portmanteau was Barbenheimer."
+      "notes": "Nemo represented Switzerland with the song The Code."
     },
     {
       "id": "geography-01",
-      "question": "What is the capital city of Canada?",
+      "question": "The ancient pyramids of Meroë are found in which modern country?",
       "answerType": "single",
-      "answers": ["Ottawa"],
-      "choices": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+      "answers": [
+        "Sudan",
+        "The Sudan"
+      ],
+      "choices": [
+        "Sudan",
+        "Egypt",
+        "Ethiopia",
+        "Libya"
+      ],
       "points": 1,
       "category": "Geography",
-      "notes": "Ottawa is the capital; Toronto is Canada's largest city."
+      "notes": "Meroë was a major city of the Kingdom of Kush in present-day Sudan."
     },
     {
       "id": "geography-02",
-      "question": "What is the largest ocean on Earth?",
-      "answerType": "single",
-      "answers": ["Pacific Ocean", "The Pacific", "Pacific"],
-      "points": 1,
+      "question": "Which four national capital cities does the River Danube flow through?",
+      "answerType": "multiple",
+      "answers": [
+        "Vienna",
+        "Bratislava",
+        "Budapest",
+        "Belgrade"
+      ],
+      "choices": [
+        "Vienna",
+        "Bratislava",
+        "Budapest",
+        "Belgrade",
+        "Prague",
+        "Zagreb",
+        "Bucharest"
+      ],
+      "points": 4,
       "category": "Geography",
-      "notes": "The Pacific Ocean is larger than all Earth's land area combined."
+      "notes": "Award one point each for Vienna, Bratislava, Budapest and Belgrade."
     },
     {
       "id": "geography-03",
-      "question": "Which strait separates New Zealand's North Island and South Island?",
+      "question": "What is the largest island in the Mediterranean Sea?",
       "answerType": "single",
-      "answers": ["Cook Strait"],
+      "answers": [
+        "Sicily"
+      ],
+      "choices": [
+        "Sicily",
+        "Sardinia",
+        "Cyprus",
+        "Crete"
+      ],
       "points": 1,
       "category": "Geography",
-      "notes": "Cook Strait lies between Wellington and the Marlborough Sounds."
+      "notes": "Sicily is the Mediterranean's largest island by area."
     },
     {
       "id": "geography-04",
-      "question": "Which continent is the only one with land in all four hemispheres?",
+      "question": "Which city is Bolivia's constitutional capital, even though the government sits in La Paz?",
       "answerType": "single",
-      "answers": ["Africa"],
-      "choices": ["Africa", "Asia", "South America", "Europe"],
+      "answers": [
+        "Sucre"
+      ],
+      "choices": [
+        "Sucre",
+        "Santa Cruz",
+        "Cochabamba",
+        "Potosí"
+      ],
       "points": 1,
       "category": "Geography",
-      "notes": "Both the Equator and the Prime Meridian cross Africa."
+      "notes": "Sucre is the constitutional capital; La Paz is the administrative seat of government."
     },
     {
       "id": "geography-05",
-      "question": "The island of New Guinea is divided between which two countries?",
-      "answerType": "multiple",
-      "answers": ["Papua New Guinea", "Indonesia"],
-      "choices": ["Papua New Guinea", "Indonesia", "Malaysia", "Solomon Islands"],
-      "points": 2,
+      "question": "Through Gibraltar, the United Kingdom has a land border with which country?",
+      "answerType": "single",
+      "answers": [
+        "Spain"
+      ],
+      "choices": [
+        "Spain",
+        "Portugal",
+        "France",
+        "Morocco"
+      ],
+      "points": 1,
       "category": "Geography",
-      "notes": "Award one point each for Papua New Guinea and Indonesia."
+      "notes": "The British Overseas Territory of Gibraltar borders Spain."
     },
     {
       "id": "geography-06",
-      "question": "Lake Titicaca lies on the border of which two countries?",
-      "answerType": "multiple",
-      "answers": ["Peru", "Bolivia"],
-      "choices": ["Peru", "Bolivia", "Chile", "Ecuador"],
-      "points": 2,
+      "question": "Which sea is defined by ocean currents rather than by surrounding land?",
+      "answerType": "single",
+      "answers": [
+        "Sargasso Sea",
+        "The Sargasso Sea"
+      ],
+      "choices": [
+        "Sargasso Sea",
+        "Arabian Sea",
+        "Coral Sea",
+        "Tasman Sea"
+      ],
+      "points": 1,
       "category": "Geography",
-      "notes": "Award one point each for Peru and Bolivia."
+      "notes": "The Sargasso Sea lies in the North Atlantic and has no land boundaries."
     },
     {
       "id": "geography-07",
-      "question": "Which New Zealand city is commonly known as the Garden City?",
+      "question": "Which present-day African country was historically known as Abyssinia?",
       "answerType": "single",
-      "answers": ["Christchurch", "Christchurch, New Zealand"],
-      "choices": ["Christchurch", "Hamilton", "Dunedin", "Nelson"],
+      "answers": [
+        "Ethiopia"
+      ],
       "points": 1,
       "category": "Geography",
-      "notes": "Christchurch is widely known as New Zealand's Garden City."
+      "notes": "Abyssinia is the historical European name commonly associated with Ethiopia."
     },
     {
       "id": "geography-08",
-      "question": "Which famous river flows through Egypt and reaches the Mediterranean Sea?",
+      "question": "Which capital city stands near the meeting point of the Blue Nile and White Nile?",
       "answerType": "single",
-      "answers": ["Nile", "The Nile", "Nile River", "The Nile River"],
+      "answers": [
+        "Khartoum"
+      ],
+      "choices": [
+        "Khartoum",
+        "Cairo",
+        "Kampala",
+        "Addis Ababa"
+      ],
       "points": 1,
       "category": "Geography",
-      "notes": "Accept Nile or Nile River."
+      "notes": "The two branches of the Nile meet at Khartoum in Sudan."
     },
     {
       "id": "geography-09",
-      "question": "Which European country is often described as being shaped like a boot?",
-      "answerType": "single",
-      "answers": ["Italy"],
-      "points": 1,
+      "question": "Which two countries share the Caribbean island of Hispaniola?",
+      "answerType": "multiple",
+      "answers": [
+        "Haiti",
+        "The Dominican Republic"
+      ],
+      "points": 2,
       "category": "Geography",
-      "notes": "The Italian peninsula creates the familiar boot shape."
+      "notes": "Award one point each for Haiti and the Dominican Republic."
     },
     {
       "id": "geography-10",
-      "question": "What is the capital city of Australia?",
+      "question": "What is the world's deepest lake?",
       "answerType": "single",
-      "answers": ["Canberra"],
-      "choices": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+      "answers": [
+        "Lake Baikal",
+        "Baikal"
+      ],
+      "choices": [
+        "Lake Baikal",
+        "Lake Tanganyika",
+        "Lake Superior",
+        "Caspian Sea"
+      ],
       "points": 1,
       "category": "Geography",
-      "notes": "Canberra, not Sydney or Melbourne, is Australia's capital."
+      "notes": "Lake Baikal in Siberia is the world's deepest lake."
     },
     {
       "id": "world-politics-01",
-      "question": "Which politician returned to the White House in January 2025 after previously serving as US president from 2017 to 2021?",
+      "question": "Who became Germany's federal chancellor in May 2025?",
       "answerType": "single",
-      "answers": ["Donald Trump", "Donald J. Trump", "Trump"],
-      "choices": ["Donald Trump", "Joe Biden", "Barack Obama", "JD Vance"],
+      "answers": [
+        "Friedrich Merz",
+        "Merz"
+      ],
+      "choices": [
+        "Friedrich Merz",
+        "Olaf Scholz",
+        "Frank-Walter Steinmeier",
+        "Robert Habeck"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "Donald Trump is both the 45th and 47th US president. Current as checked on 17 July 2026."
+      "notes": "Friedrich Merz became federal chancellor on 6 May 2025. Current as checked on 17 July 2026."
     },
     {
       "id": "world-politics-02",
-      "question": "Which party won a large majority in the United Kingdom's 2024 general election?",
+      "question": "Which party does Australian prime minister Anthony Albanese lead?",
       "answerType": "single",
-      "answers": ["Labour", "Labour Party", "The Labour Party"],
-      "choices": ["Labour Party", "Conservative Party", "Liberal Democrats", "Reform UK"],
+      "answers": [
+        "Australian Labor Party",
+        "Labor Party",
+        "Labor",
+        "ALP"
+      ],
+      "choices": [
+        "Australian Labor Party",
+        "Liberal Party of Australia",
+        "Australian Greens",
+        "National Party of Australia"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "Labour won 411 seats and a majority in the House of Commons."
+      "notes": "Note the Australian spelling Labor, without the letter u. Current as checked on 17 July 2026."
     },
     {
       "id": "world-politics-03",
-      "question": "Who became prime minister of Canada in March 2025, succeeding Justin Trudeau?",
+      "question": "Before becoming NATO secretary general, Mark Rutte was prime minister of which country?",
       "answerType": "single",
-      "answers": ["Mark Carney"],
-      "choices": ["Mark Carney", "Pierre Poilievre", "Jagmeet Singh", "Doug Ford"],
+      "answers": [
+        "Netherlands",
+        "The Netherlands",
+        "Holland"
+      ],
+      "choices": [
+        "The Netherlands",
+        "Belgium",
+        "Denmark",
+        "Norway"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "Mark Carney became Canada's 24th prime minister. Current as checked on 17 July 2026."
+      "notes": "Mark Rutte was prime minister of the Netherlands from 2010 to 2024. Accept Holland in a friendly quiz. Current role checked on 17 July 2026."
     },
     {
       "id": "world-politics-04",
-      "question": "Claudia Sheinbaum became the first woman elected president of which country?",
-      "answerType": "single",
-      "answers": ["Mexico"],
-      "choices": ["Mexico", "Argentina", "Chile", "Spain"],
-      "points": 1,
+      "question": "Before entering Canadian politics, Mark Carney served as governor of which two central banks?",
+      "answerType": "multiple",
+      "answers": [
+        "Bank of Canada",
+        "Bank of England"
+      ],
+      "choices": [
+        "Bank of Canada",
+        "Bank of England",
+        "US Federal Reserve",
+        "European Central Bank"
+      ],
+      "points": 2,
       "category": "World Politics",
-      "notes": "Claudia Sheinbaum took office as president of Mexico in October 2024."
+      "notes": "Award one point each for the Bank of Canada and Bank of England."
     },
     {
       "id": "world-politics-05",
-      "question": "Giorgia Meloni is the prime minister of which European country?",
+      "question": "Before becoming president of Mexico, Claudia Sheinbaum led the government of which major city?",
       "answerType": "single",
-      "answers": ["Italy"],
-      "choices": ["Italy", "Greece", "Spain", "Hungary"],
+      "answers": [
+        "Mexico City",
+        "Ciudad de México",
+        "CDMX"
+      ],
+      "choices": [
+        "Mexico City",
+        "Monterrey",
+        "Guadalajara",
+        "Tijuana"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "Giorgia Meloni has led Italy's government since October 2022. Current as checked on 17 July 2026."
+      "notes": "Sheinbaum served as Head of Government of Mexico City from 2018 to 2023."
     },
     {
       "id": "world-politics-06",
-      "question": "Alongside the National Party, which two parties make up New Zealand's current coalition government?",
-      "answerType": "multiple",
-      "answers": ["ACT New Zealand", "New Zealand First"],
-      "choices": ["ACT New Zealand", "New Zealand First", "Green Party", "Labour Party"],
-      "points": 2,
+      "question": "Who replaced Winston Peters as New Zealand's deputy prime minister in May 2025 under the coalition's power-sharing agreement?",
+      "answerType": "single",
+      "answers": [
+        "David Seymour",
+        "Seymour"
+      ],
+      "choices": [
+        "David Seymour",
+        "Nicola Willis",
+        "Chris Bishop",
+        "Shane Jones"
+      ],
+      "points": 1,
       "category": "World Politics",
-      "notes": "Award one point each for ACT New Zealand and New Zealand First. Current as checked on 17 July 2026."
+      "notes": "David Seymour took over the role on 31 May 2025. Current as checked on 17 July 2026."
     },
     {
       "id": "world-politics-07",
-      "question": "What does NATO's Article 5 broadly mean?",
+      "question": "Ursula von der Leyen is president of which European Union institution?",
       "answerType": "single",
-      "answers": ["An attack on one member is treated as an attack on all", "An armed attack on one member is considered an attack on all members"],
-      "choices": ["An attack on one member is treated as an attack on all", "Every member must spend five percent of GDP on defence", "No member may leave NATO", "All military decisions require five votes"],
+      "answers": [
+        "European Commission",
+        "The European Commission",
+        "EU Commission"
+      ],
+      "choices": [
+        "European Commission",
+        "European Council",
+        "European Parliament",
+        "European Central Bank"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "It is NATO's collective-defence commitment. Assistance does not automatically have to mean the use of armed force."
+      "notes": "Do not accept European Council; that is a separate EU institution. Current as checked on 17 July 2026."
     },
     {
       "id": "world-politics-08",
-      "question": "Which country became NATO's newest member in 2024?",
+      "question": "Which amendment to the US Constitution limits a president to being elected twice?",
       "answerType": "single",
-      "answers": ["Sweden"],
-      "choices": ["Sweden", "Finland", "Ukraine", "Austria"],
+      "answers": [
+        "22nd Amendment",
+        "Twenty-Second Amendment",
+        "Twenty Second Amendment",
+        "Amendment 22"
+      ],
+      "choices": [
+        "22nd Amendment",
+        "12th Amendment",
+        "19th Amendment",
+        "25th Amendment"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "Sweden became NATO's 32nd member in March 2024; Finland joined in 2023."
+      "notes": "The Twenty-Second Amendment was ratified in 1951."
     },
     {
       "id": "world-politics-09",
-      "question": "Which United Nations body has five permanent members with veto power?",
+      "question": "Which South American president became famous for using a chainsaw as a campaign symbol?",
       "answerType": "single",
-      "answers": ["UN Security Council", "United Nations Security Council", "Security Council"],
-      "choices": ["UN Security Council", "UN General Assembly", "International Court of Justice", "UN Human Rights Council"],
+      "answers": [
+        "Javier Milei",
+        "Milei"
+      ],
+      "choices": [
+        "Javier Milei",
+        "Gabriel Boric",
+        "Luiz Inácio Lula da Silva",
+        "Gustavo Petro"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "The five permanent Security Council members are China, France, Russia, the United Kingdom, and the United States."
+      "notes": "Argentina's Javier Milei used a chainsaw to symbolise planned cuts to government spending."
     },
     {
       "id": "world-politics-10",
-      "question": "Which political party does New Zealand prime minister Christopher Luxon lead?",
+      "question": "Which current European president previously played a fictional president in the television comedy Servant of the People?",
       "answerType": "single",
-      "answers": ["National", "National Party", "New Zealand National Party"],
-      "choices": ["National Party", "ACT New Zealand", "New Zealand First", "Labour Party"],
+      "answers": [
+        "Volodymyr Zelenskyy",
+        "Volodymyr Zelensky",
+        "Zelenskyy",
+        "Zelensky"
+      ],
+      "choices": [
+        "Volodymyr Zelenskyy",
+        "Emmanuel Macron",
+        "Andrzej Duda",
+        "Alexander Stubb"
+      ],
       "points": 1,
       "category": "World Politics",
-      "notes": "Christopher Luxon is leader of the New Zealand National Party. Current as checked on 17 July 2026."
+      "notes": "Volodymyr Zelenskyy starred in Servant of the People before becoming president of Ukraine. Current as checked on 17 July 2026."
     }
   ]
 }
