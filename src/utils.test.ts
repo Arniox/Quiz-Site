@@ -7,6 +7,10 @@ describe("quiz validation", () => {
   it("accepts a valid quiz", () => expect(validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "Ready?", answerType: "single", answers: ["Yes"], points: 1 }] }).title).toBe("Quiz"));
   it("reports duplicate IDs", () => expect(() => validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "A", answerType: "open", answers: [], points: 1 }, { id: "q1", question: "B", answerType: "open", answers: [], points: 1 }] })).toThrow(/duplicate id/i));
   it("requires answers for single questions", () => expect(() => validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "A", answerType: "single", answers: [], points: 1 }] })).toThrow(/needs at least one answer/i));
+  it("validates displayed multiple-choice answers", () => {
+    expect(validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "A", answerType: "single", answers: ["Correct"], choices: ["Wrong", "Correct"], points: 1 }] }).questions[0].choices).toEqual(["Wrong", "Correct"]);
+    expect(() => validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "A", answerType: "single", answers: ["Correct"], choices: ["Wrong", "Also wrong"], points: 1 }] })).toThrow(/match an accepted answer/i);
+  });
 });
 
 describe("scoring", () => {

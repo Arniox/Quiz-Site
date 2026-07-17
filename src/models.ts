@@ -14,6 +14,7 @@ export interface QuizQuestion {
   question: string;
   answerType: AnswerType;
   answers: string[];
+  choices?: string[];
   points: number;
   category?: string;
   notes?: string;
