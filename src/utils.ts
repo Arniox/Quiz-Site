@@ -1,11 +1,23 @@
-import type { GameSession, ManualScoreAdjustment, QuestionResult, QuizFile, RankedParticipant, ScoreAward } from "./models";
+import type { GameSession, ManualScoreAdjustment, QuestionProgressStatus, QuestionResult, QuizFile, RankedParticipant, ScoreAward } from "./models";
 export { validateQuiz } from "./services/quizValidation";
 
 export const createId = (prefix: string) => `${prefix}-${crypto.randomUUID()}`;
 export const roundScore = (value: number) => Math.round(value * 100) / 100;
 
 export function quizFingerprint(quiz: QuizFile): string {
-  return `${quiz.title}|${quiz.questions.length}|${quiz.questions.map((q) => q.id).join("|")}`;
+  return `${quiz.title}|${quiz.questions.length}|${quiz.questions.map((q) => `${q.id}:${q.question}:${q.answers.join(",")}:${q.choices?.join(",") ?? ""}`).join("|")}`;
+}
+
+export function shuffleQuestionChoices(quiz: QuizFile, random: () => number = Math.random): Record<string, string[]> {
+  return Object.fromEntries(quiz.questions.filter((question) => question.choices?.length).map((question) => {
+    const shuffled = [...(question.choices ?? [])];
+    for (let index = shuffled.length - 1; index > 0; index -= 1) {
+      const swapIndex = Math.floor(random() * (index + 1));
+      [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+    }
+    if (shuffled.length > 1 && shuffled.every((choice, index) => choice === question.choices?.[index])) shuffled.push(shuffled.shift() as string);
+    return [question.id, shuffled];
+  }));
 }
 
 export function replaceQuestionAwards(results: QuestionResult[], questionId: string, awards: ScoreAward[]): QuestionResult[] {
@@ -16,6 +28,14 @@ export function replaceQuestionAwards(results: QuestionResult[], questionId: str
   const next = { questionId, awards: [...unique].map(([participantId, points]) => ({ participantId, points })), completed: true, skipped: false };
   const exists = results.some((result) => result.questionId === questionId);
   return exists ? results.map((result) => result.questionId === questionId ? next : result) : [...results, next];
+}
+
+export function getQuestionProgressStatus(questionId: string, results: QuestionResult[], viewedQuestionIds: string[]): QuestionProgressStatus {
+  const result = results.find((item) => item.questionId === questionId);
+  if (result?.skipped) return "skipped";
+  if (result?.awards.length) return "scored";
+  if (result?.completed) return "no-correct";
+  return viewedQuestionIds.includes(questionId) ? "viewed" : "unseen";
 }
 
 export function calculateParticipantScore(participantId: string, results: QuestionResult[], adjustments: ManualScoreAdjustment[]): number {
@@ -44,7 +64,7 @@ export function loadSession(): GameSession | null {
   if (!raw) return null;
   try {
     const parsed = JSON.parse(raw) as GameSession;
-    return parsed.version === 1 ? parsed : null;
+    return parsed.version === 1 ? { ...parsed, choiceOrder: parsed.choiceOrder ?? {}, viewedQuestionIds: parsed.viewedQuestionIds ?? [] } : null;
   } catch { return null; }
 }
 

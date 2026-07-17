@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { ManualScoreAdjustment, QuestionResult } from "./models";
 import { createSession } from "./game";
-import { calculateParticipantScore, calculateRankings, loadSession, replaceQuestionAwards, saveSession, validateQuiz, validateStart } from "./utils";
+import { calculateParticipantScore, calculateRankings, getQuestionProgressStatus, loadSession, replaceQuestionAwards, saveSession, shuffleQuestionChoices, validateQuiz, validateStart } from "./utils";
 
 describe("quiz validation", () => {
   it("accepts a valid quiz", () => expect(validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "Ready?", answerType: "single", answers: ["Yes"], points: 1 }] }).title).toBe("Quiz"));
@@ -42,5 +42,29 @@ describe("session behaviour", () => {
   it("explains invalid team setup", () => {
     const session = { ...createSession({ quizId: "quiz", quizFile: "quiz.json", quizFingerprint: "quiz" }), mode: "teams" as const, players: [{ id: "p1", name: "Alice", teamId: null }] };
     expect(validateStart(session)).toEqual(expect.arrayContaining(["Create at least one team.", "Assign every player to a team (1 unassigned)."]));
+  });
+});
+
+describe("choice shuffling", () => {
+  it("shuffles each choice list without changing its contents", () => {
+    const quiz = validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "A", answerType: "single", answers: ["A"], choices: ["A", "B", "C", "D"], points: 1 }] });
+    const order = shuffleQuestionChoices(quiz, () => 0);
+    expect(order.q1).toEqual(["B", "C", "D", "A"]);
+    expect([...order.q1].sort()).toEqual(["A", "B", "C", "D"]);
+    expect(quiz.questions[0].choices).toEqual(["A", "B", "C", "D"]);
+  });
+  it("never leaves a choice list in its authoring order", () => {
+    const quiz = validateQuiz({ title: "Quiz", questions: [{ id: "q1", question: "A", answerType: "single", answers: ["A"], choices: ["A", "B", "C", "D"], points: 1 }] });
+    expect(shuffleQuestionChoices(quiz, () => 0.999).q1).toEqual(["B", "C", "D", "A"]);
+  });
+});
+
+describe("question progress", () => {
+  it("distinguishes unseen, viewed, zero-score, scored, and skipped questions", () => {
+    expect(getQuestionProgressStatus("q1", [], [])).toBe("unseen");
+    expect(getQuestionProgressStatus("q1", [], ["q1"])).toBe("viewed");
+    expect(getQuestionProgressStatus("q1", [{ questionId: "q1", awards: [], completed: true, skipped: false }], ["q1"])).toBe("no-correct");
+    expect(getQuestionProgressStatus("q1", [{ questionId: "q1", awards: [{ participantId: "p1", points: 1 }], completed: true, skipped: false }], ["q1"])).toBe("scored");
+    expect(getQuestionProgressStatus("q1", [{ questionId: "q1", awards: [], completed: true, skipped: true }], ["q1"])).toBe("skipped");
   });
 });
