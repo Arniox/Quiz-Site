@@ -1,0 +1,372 @@
+{
+  "title": "The Great Knowledge Challenge",
+  "description": "A difficult but fair quiz spanning astronomy, science, history, and geography.",
+  "settings": {
+    "shuffleQuestions": false,
+    "defaultFirstPlacePoints": 3,
+    "defaultSecondPlacePoints": 2,
+    "defaultThirdPlacePoints": 1
+  },
+  "questions": [
+    {
+      "id": "astronomy-01",
+      "question": "What physical process supplies the energy radiated by ordinary main-sequence stars such as the Sun?",
+      "answerType": "single",
+      "answers": ["Nuclear fusion", "Fusion", "Hydrogen fusion"],
+      "points": 1,
+      "category": "Astronomy",
+      "notes": "The Sun fuses hydrogen into helium in its core. Do not accept nuclear fission."
+    },
+    {
+      "id": "astronomy-02",
+      "question": "A light-year measures what physical quantity?",
+      "answerType": "single",
+      "answers": ["Distance", "A distance"],
+      "points": 1,
+      "category": "Astronomy",
+      "notes": "It is the distance light travels in one year, not a unit of time."
+    },
+    {
+      "id": "astronomy-03",
+      "question": "What kind of stellar remnant will the Sun ultimately leave after shedding its outer layers?",
+      "answerType": "single",
+      "answers": ["White dwarf", "A white dwarf"],
+      "points": 2,
+      "category": "Astronomy",
+      "notes": "The expelled outer layers form a planetary nebula; the remnant core is a white dwarf."
+    },
+    {
+      "id": "astronomy-04",
+      "question": "Name the four terrestrial planets of the Solar System.",
+      "answerType": "multiple",
+      "answers": ["Mercury", "Venus", "Earth", "Mars"],
+      "points": 4,
+      "category": "Astronomy",
+      "notes": "Award one point for each; answers may be given in any order."
+    },
+    {
+      "id": "astronomy-05",
+      "question": "When astronomers say that a distant galaxy's spectral lines are redshifted, in which direction have their wavelengths moved?",
+      "answerType": "single",
+      "answers": ["Toward longer wavelengths", "To longer wavelengths", "Longer wavelengths"],
+      "points": 2,
+      "category": "Astronomy",
+      "notes": "For distant galaxies this is chiefly interpreted in the context of cosmic expansion."
+    },
+    {
+      "id": "astronomy-06",
+      "question": "Why does a planet move faster in its orbit when it is nearer the Sun?",
+      "answerType": "single",
+      "answers": ["Conservation of angular momentum", "It conserves angular momentum", "Kepler's second law", "Kepler’s second law"],
+      "points": 3,
+      "category": "Astronomy",
+      "notes": "Accept either conservation of angular momentum or Kepler's second law."
+    },
+    {
+      "id": "astronomy-07",
+      "question": "What type of galaxy is the Milky Way according to its large-scale structure?",
+      "answerType": "single",
+      "answers": ["Barred spiral galaxy", "A barred spiral", "Barred spiral"],
+      "points": 2,
+      "category": "Astronomy",
+      "notes": "A plain 'spiral galaxy' is close, but the central bar is the distinguishing feature requested."
+    },
+    {
+      "id": "astronomy-08",
+      "question": "Name the four large Galilean moons of Jupiter.",
+      "answerType": "multiple",
+      "answers": ["Io", "Europa", "Ganymede", "Callisto"],
+      "points": 4,
+      "category": "Astronomy",
+      "notes": "Award one point for each; answers may be given in any order."
+    },
+    {
+      "id": "astronomy-09",
+      "question": "The star cluster known in te ao Māori as Matariki is better known internationally by what name?",
+      "answerType": "single",
+      "answers": ["The Pleiades", "Pleiades", "The Seven Sisters", "Seven Sisters"],
+      "points": 3,
+      "category": "Astronomy",
+      "notes": "Matariki is the Māori name commonly used for the Pleiades cluster and for its heliacal rising season."
+    },
+    {
+      "id": "astronomy-10",
+      "question": "What observational feature of the cosmic microwave background provides evidence that the early universe contained tiny density variations?",
+      "answerType": "single",
+      "answers": ["Temperature anisotropies", "Tiny temperature fluctuations", "Temperature fluctuations", "Anisotropies"],
+      "points": 3,
+      "category": "Astronomy",
+      "notes": "These minute variations became the seeds of later large-scale structure."
+    },
+    {
+      "id": "science-01",
+      "question": "Which law of thermodynamics states that energy cannot be created or destroyed in an isolated system?",
+      "answerType": "single",
+      "answers": ["The first law of thermodynamics", "First law of thermodynamics", "The first law"],
+      "points": 1,
+      "category": "Science",
+      "notes": "This is the thermodynamic expression of energy conservation."
+    },
+    {
+      "id": "science-02",
+      "question": "Which organelle is the principal site of aerobic cellular respiration in eukaryotic cells?",
+      "answerType": "single",
+      "answers": ["Mitochondrion", "Mitochondria", "The mitochondria"],
+      "points": 1,
+      "category": "Science",
+      "notes": "Accept singular or plural."
+    },
+    {
+      "id": "science-03",
+      "question": "Name the four nitrogenous bases found in DNA.",
+      "answerType": "multiple",
+      "answers": ["Adenine", "Thymine", "Cytosine", "Guanine"],
+      "points": 4,
+      "category": "Science",
+      "notes": "Award one point for each; answers may be given in any order. Uracil belongs in RNA, not DNA."
+    },
+    {
+      "id": "science-04",
+      "question": "What kind of chemical bond forms when atoms share pairs of electrons?",
+      "answerType": "single",
+      "answers": ["Covalent bond", "A covalent bond", "Covalent bonding"],
+      "points": 2,
+      "category": "Science",
+      "notes": ""
+    },
+    {
+      "id": "science-05",
+      "question": "In a controlled experiment, what is the purpose of a control group?",
+      "answerType": "single",
+      "answers": ["To provide a baseline for comparison", "A baseline for comparison", "To provide a comparison baseline", "Comparison"],
+      "points": 2,
+      "category": "Science",
+      "notes": "The control helps isolate the effect of the independent variable."
+    },
+    {
+      "id": "science-06",
+      "question": "Name the four fundamental interactions of nature.",
+      "answerType": "multiple",
+      "answers": ["Gravity", "Electromagnetism", "Strong nuclear force", "Weak nuclear force"],
+      "points": 4,
+      "category": "Science",
+      "notes": "Award one point for each; answers may be given in any order. Accept gravitational, electromagnetic, strong, and weak interaction."
+    },
+    {
+      "id": "science-07",
+      "question": "What process moves fragments of DNA through a gel under an electric field, separating them mainly by size?",
+      "answerType": "single",
+      "answers": ["Gel electrophoresis", "Electrophoresis"],
+      "points": 2,
+      "category": "Science",
+      "notes": "Smaller DNA fragments generally migrate farther through the gel."
+    },
+    {
+      "id": "science-08",
+      "question": "At a subduction zone, why does an oceanic plate usually descend beneath a continental plate?",
+      "answerType": "single",
+      "answers": ["The oceanic plate is denser", "Oceanic lithosphere is denser", "It is denser"],
+      "points": 3,
+      "category": "Science",
+      "notes": "The greater density of oceanic lithosphere is the key comparison."
+    },
+    {
+      "id": "science-09",
+      "question": "What term describes the immune system's ability to respond more rapidly and strongly after a second encounter with the same pathogen?",
+      "answerType": "single",
+      "answers": ["Immunological memory", "Immune memory"],
+      "points": 3,
+      "category": "Science",
+      "notes": "Memory B and T cells underpin this response."
+    },
+    {
+      "id": "science-10",
+      "question": "What principle says that no two electrons in an atom can have the same complete set of four quantum numbers?",
+      "answerType": "single",
+      "answers": ["Pauli exclusion principle", "The Pauli exclusion principle"],
+      "points": 3,
+      "category": "Science",
+      "notes": "Named for Wolfgang Pauli."
+    },
+    {
+      "id": "history-01",
+      "question": "Which ancient civilisation developed democracy in the city-state of Athens?",
+      "answerType": "single",
+      "answers": ["The ancient Greeks", "Ancient Greece", "The Greeks", "Greek civilisation"],
+      "points": 1,
+      "category": "History",
+      "notes": "The question refers specifically to Athenian democracy, which excluded much of the population."
+    },
+    {
+      "id": "history-02",
+      "question": "Which West African empire became renowned for the wealth and pilgrimage of Mansa Musa?",
+      "answerType": "single",
+      "answers": ["The Mali Empire", "Mali Empire", "Mali"],
+      "points": 1,
+      "category": "History",
+      "notes": "Mansa Musa ruled Mali in the 14th century."
+    },
+    {
+      "id": "history-03",
+      "question": "Which peace settlement formally ended the Thirty Years' War in 1648?",
+      "answerType": "single",
+      "answers": ["The Peace of Westphalia", "Peace of Westphalia", "Westphalia"],
+      "points": 2,
+      "category": "History",
+      "notes": "The broader settlement consisted principally of the treaties of Münster and Osnabrück."
+    },
+    {
+      "id": "history-04",
+      "question": "At which location was Te Tiriti o Waitangi first signed in February 1840?",
+      "answerType": "single",
+      "answers": ["Waitangi", "Waitangi in the Bay of Islands", "Bay of Islands"],
+      "points": 2,
+      "category": "History",
+      "notes": "The first signing took place at Waitangi on 6 February; copies were later signed around the country."
+    },
+    {
+      "id": "history-05",
+      "question": "Which Chinese dynasty sponsored Zheng He's major maritime expeditions across the Indian Ocean?",
+      "answerType": "single",
+      "answers": ["The Ming dynasty", "Ming dynasty", "Ming"],
+      "points": 2,
+      "category": "History",
+      "notes": "The voyages took place in the early 15th century."
+    },
+    {
+      "id": "history-06",
+      "question": "Name the three European powers that formed the Triple Entente before the First World War.",
+      "answerType": "multiple",
+      "answers": ["France", "The United Kingdom", "Russia"],
+      "points": 3,
+      "category": "History",
+      "notes": "Award one point for each; answers may be given in any order. Accept Britain or the British Empire for the United Kingdom, and the Russian Empire for Russia."
+    },
+    {
+      "id": "history-07",
+      "question": "What institution, established in 1919, was intended to prevent future wars through collective security but lacked the participation of the United States?",
+      "answerType": "single",
+      "answers": ["The League of Nations", "League of Nations"],
+      "points": 2,
+      "category": "History",
+      "notes": "The League was a predecessor in purpose, though not structure, to the United Nations."
+    },
+    {
+      "id": "history-08",
+      "question": "Name the four empires that collapsed during or in the immediate aftermath of the First World War.",
+      "answerType": "multiple",
+      "answers": ["German Empire", "Austro-Hungarian Empire", "Ottoman Empire", "Russian Empire"],
+      "points": 4,
+      "category": "History",
+      "notes": "Award one point for each; answers may be given in any order. Accept German, Habsburg or Austria-Hungary, Ottoman, and Russian or Tsarist empire."
+    },
+    {
+      "id": "history-09",
+      "question": "From which broad Pacific region did the Polynesian ancestors of Māori migrate to Aotearoa New Zealand?",
+      "answerType": "single",
+      "answers": ["East Polynesia", "Eastern Polynesia"],
+      "points": 3,
+      "category": "History",
+      "notes": "Current evidence places initial settlement from East Polynesia in the late 13th century."
+    },
+    {
+      "id": "history-10",
+      "question": "What was the name of the Ottoman levy that recruited boys from Christian communities for imperial service, including service with the Janissaries?",
+      "answerType": "single",
+      "answers": ["Devshirme", "Devşirme", "The devshirme system", "The devşirme system"],
+      "points": 3,
+      "category": "History",
+      "notes": "Pronounced approximately dev-SHEER-meh. The practice varied over time and place."
+    },
+    {
+      "id": "geography-01",
+      "question": "Which river flows through or along the borders of more European countries than any other?",
+      "answerType": "single",
+      "answers": ["The Danube", "Danube", "Danube River"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "The Danube passes through or forms borders of ten countries."
+    },
+    {
+      "id": "geography-02",
+      "question": "Which mountain range forms the conventional geographic boundary between Europe and Asia in Russia?",
+      "answerType": "single",
+      "answers": ["The Ural Mountains", "Ural Mountains", "The Urals", "Urals"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "The Europe-Asia boundary is conventional rather than a plate boundary."
+    },
+    {
+      "id": "geography-03",
+      "question": "Name the three South American countries crossed by the Equator.",
+      "answerType": "multiple",
+      "answers": ["Ecuador", "Colombia", "Brazil"],
+      "points": 3,
+      "category": "Geography",
+      "notes": "Award one point for each; answers may be given in any order."
+    },
+    {
+      "id": "geography-04",
+      "question": "What climate pattern produces dry conditions on the leeward side of a mountain range after air loses moisture while rising on the windward side?",
+      "answerType": "single",
+      "answers": ["Rain shadow", "A rain shadow", "Rain-shadow effect", "Orographic rain shadow"],
+      "points": 2,
+      "category": "Geography",
+      "notes": "Accept rain shadow or rain-shadow effect."
+    },
+    {
+      "id": "geography-05",
+      "question": "Aotearoa New Zealand straddles the boundary between which two major tectonic plates?",
+      "answerType": "single",
+      "answers": ["The Pacific and Australian plates", "Pacific Plate and Australian Plate", "Australian and Pacific plates"],
+      "points": 2,
+      "category": "Geography",
+      "notes": "Both plates are required for full credit."
+    },
+    {
+      "id": "geography-06",
+      "question": "Which sea has no land boundaries and is instead defined by circulating currents in the North Atlantic?",
+      "answerType": "single",
+      "answers": ["The Sargasso Sea", "Sargasso Sea"],
+      "points": 3,
+      "category": "Geography",
+      "notes": "Its boundaries are formed by the North Atlantic subtropical gyre."
+    },
+    {
+      "id": "geography-07",
+      "question": "Which two sovereign states share the island of Hispaniola?",
+      "answerType": "single",
+      "answers": ["Haiti and the Dominican Republic", "The Dominican Republic and Haiti", "Haiti, Dominican Republic"],
+      "points": 2,
+      "category": "Geography",
+      "notes": "Both countries are required."
+    },
+    {
+      "id": "geography-08",
+      "question": "Name the three widely recognised vertices of the Polynesian Triangle.",
+      "answerType": "multiple",
+      "answers": ["Hawaiʻi", "Aotearoa New Zealand", "Rapa Nui"],
+      "points": 3,
+      "category": "Geography",
+      "notes": "Award one point for each; answers may be given in any order. Accept Hawaii, New Zealand or Aotearoa, and Easter Island for Rapa Nui."
+    },
+    {
+      "id": "geography-09",
+      "question": "Which country is entirely surrounded by South Africa?",
+      "answerType": "single",
+      "answers": ["Lesotho", "The Kingdom of Lesotho"],
+      "points": 3,
+      "category": "Geography",
+      "notes": "Lesotho is an enclave; Eswatini also borders Mozambique and is not entirely surrounded."
+    },
+    {
+      "id": "geography-10",
+      "question": "What is the geographic term for a drainage basin whose rivers do not reach the ocean, instead ending in inland lakes, wetlands, or salt flats?",
+      "answerType": "single",
+      "answers": ["Endorheic basin", "An endorheic basin", "Closed drainage basin", "Interior drainage basin"],
+      "points": 3,
+      "category": "Geography",
+      "notes": "Pronounced roughly en-doh-REE-ik. Accept closed or interior drainage basin."
+    }
+  ]
+}

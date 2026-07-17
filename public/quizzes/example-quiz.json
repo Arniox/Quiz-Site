@@ -1,0 +1,57 @@
+{
+  "title": "Friday Night Quiz",
+  "description": "A lively mix of geography, science, culture and creativity.",
+  "settings": {
+    "shuffleQuestions": false,
+    "defaultFirstPlacePoints": 3,
+    "defaultSecondPlacePoints": 2,
+    "defaultThirdPlacePoints": 1
+  },
+  "questions": [
+    {
+      "id": "question-1",
+      "question": "What is the capital of New Zealand?",
+      "answerType": "single",
+      "answers": ["Wellington"],
+      "points": 1,
+      "category": "Geography",
+      "notes": "Accept Te Whanganui-a-Tara."
+    },
+    {
+      "id": "question-2",
+      "question": "Name the three primary colours of light.",
+      "answerType": "multiple",
+      "answers": ["Red", "Green", "Blue"],
+      "points": 3,
+      "category": "Science",
+      "notes": "Award one point per correct colour; answers may be given in any order."
+    },
+    {
+      "id": "question-3",
+      "question": "Pitch the worst possible name for a luxury hotel.",
+      "answerType": "open",
+      "answers": [],
+      "points": 2,
+      "category": "Creative",
+      "notes": "The host chooses the winner."
+    },
+    {
+      "id": "question-4",
+      "question": "Which planet has the shortest day in our solar system?",
+      "answerType": "single",
+      "answers": ["Jupiter"],
+      "points": 2,
+      "category": "Space",
+      "notes": "Jupiter rotates once in about 10 hours."
+    },
+    {
+      "id": "question-5",
+      "question": "In what year was the first iPhone released?",
+      "answerType": "single",
+      "answers": ["2007"],
+      "points": 1,
+      "category": "Technology",
+      "notes": "The US release was 29 June 2007."
+    }
+  ]
+}
